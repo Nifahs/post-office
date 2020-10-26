@@ -1,0 +1,41 @@
+.NewsfeedPost{
+    border: 1px solid lightgrey;
+    padding:10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius:20px;
+
+}
+
+.postTitle{
+    color: rgb(28, 106, 179);
+}
+.round-photo{
+    width:80px;
+    height:80px;
+    border-radius:50%
+}
+.postBody{
+    font-style: italic;
+    color: rgb(93, 91, 91);
+}
+.detailsBtn{
+    background-color: rgb(235, 11, 123);
+    color: white;
+    padding: 10px 20px;
+    border-radius:20px;
+    border: none;
+    transition-property: background-color;
+    
+    transition-timing-function: ease;
+    
+}
+.detailsBtn:focus{
+    outline: none;
+}
+.detailsBtn:hover{
+    background-color:rgb(173, 16, 95);
+    transition-duration: .5s;
+    cursor: pointer;
+    
+}

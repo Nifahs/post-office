@@ -1,0 +1,20 @@
+.commentbody{
+    color: rgb(87, 99, 163);
+    font-size: 15px;
+    font-style: italic;
+    
+}
+.commentBlock{
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius:10px;
+    padding: 10px;
+    margin:10px;
+    background-color: rgb(220, 213, 235);
+}
+.email{
+    font-size:15px;
+}
+h5{
+    color:rgb(49, 0, 128);
+}
